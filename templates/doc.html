@@ -1,0 +1,14 @@
+## template for doc
+## Date   : 04.06.2017
+## Author : Jay Zhao 
+## Email  : zq496547199@126.com
+
+doc.topic
+doc.sep[doc.depth]*doc.topic.__len__()
+doc.des
+
+{%for p in doc.paras%}
+p.title
+p.sep[p.depth]*p.title.__len__()
+p.des
+{%endfor%}
